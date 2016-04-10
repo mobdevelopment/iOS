@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7634423B1CB8457E0038BFED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634423A1CB8457E0038BFED /* MainViewController.swift */; };
 		7634423D1CB9314B0038BFED /* InstrumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634423C1CB9314B0038BFED /* InstrumentViewController.swift */; };
-		7634423F1CB95BF60038BFED /* ListeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634423E1CB95BF60038BFED /* ListeningViewController.swift */; };
 		763442411CB95C440038BFED /* HighscoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763442401CB95C440038BFED /* HighscoreViewController.swift */; };
 		763442491CB9AD710038BFED /* ic_launcher (ldpi).png in Resources */ = {isa = PBXBuildFile; fileRef = 763442431CB9AD710038BFED /* ic_launcher (ldpi).png */; };
 		7634424A1CB9AD710038BFED /* ic_launcher(hdpi).png in Resources */ = {isa = PBXBuildFile; fileRef = 763442441CB9AD710038BFED /* ic_launcher(hdpi).png */; };
@@ -17,6 +16,9 @@
 		7634424C1CB9AD710038BFED /* ic_launcher(xhdpi).png in Resources */ = {isa = PBXBuildFile; fileRef = 763442461CB9AD710038BFED /* ic_launcher(xhdpi).png */; };
 		7634424D1CB9AD710038BFED /* ic_launcher(xxhdpi).png in Resources */ = {isa = PBXBuildFile; fileRef = 763442471CB9AD710038BFED /* ic_launcher(xxhdpi).png */; };
 		7634424E1CB9AD710038BFED /* ic_launcher(xxxhdpi).png in Resources */ = {isa = PBXBuildFile; fileRef = 763442481CB9AD710038BFED /* ic_launcher(xxxhdpi).png */; };
+		763442501CB9B5660038BFED /* ListeningTestStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634424F1CB9B5660038BFED /* ListeningTestStartViewController.swift */; };
+		763442521CBA8D330038BFED /* ListeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763442511CBA8D330038BFED /* ListeningViewController.swift */; };
+		763442561CBAA1F70038BFED /* ListeningGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763442551CBAA1F70038BFED /* ListeningGame.swift */; };
 		76B1C5851CB709BE00299120 /* aen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76B1C53D1CB709BE00299120 /* aen.wav */; };
 		76B1C5861CB709BE00299120 /* anl.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76B1C53E1CB709BE00299120 /* anl.wav */; };
 		76B1C5871CB709BE00299120 /* ben.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76B1C53F1CB709BE00299120 /* ben.wav */; };
@@ -119,7 +121,6 @@
 /* Begin PBXFileReference section */
 		7634423A1CB8457E0038BFED /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7634423C1CB9314B0038BFED /* InstrumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentViewController.swift; sourceTree = "<group>"; };
-		7634423E1CB95BF60038BFED /* ListeningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeningViewController.swift; sourceTree = "<group>"; };
 		763442401CB95C440038BFED /* HighscoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoreViewController.swift; sourceTree = "<group>"; };
 		763442431CB9AD710038BFED /* ic_launcher (ldpi).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher (ldpi).png"; path = "../../../../../../Dropbox/images/ic_launcher (ldpi).png"; sourceTree = "<group>"; };
 		763442441CB9AD710038BFED /* ic_launcher(hdpi).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher(hdpi).png"; path = "../../../../../../Dropbox/images/ic_launcher(hdpi).png"; sourceTree = "<group>"; };
@@ -127,6 +128,9 @@
 		763442461CB9AD710038BFED /* ic_launcher(xhdpi).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher(xhdpi).png"; path = "../../../../../../Dropbox/images/ic_launcher(xhdpi).png"; sourceTree = "<group>"; };
 		763442471CB9AD710038BFED /* ic_launcher(xxhdpi).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher(xxhdpi).png"; path = "../../../../../../Dropbox/images/ic_launcher(xxhdpi).png"; sourceTree = "<group>"; };
 		763442481CB9AD710038BFED /* ic_launcher(xxxhdpi).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher(xxxhdpi).png"; path = "../../../../../../Dropbox/images/ic_launcher(xxxhdpi).png"; sourceTree = "<group>"; };
+		7634424F1CB9B5660038BFED /* ListeningTestStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeningTestStartViewController.swift; sourceTree = "<group>"; };
+		763442511CBA8D330038BFED /* ListeningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeningViewController.swift; sourceTree = "<group>"; };
+		763442551CBAA1F70038BFED /* ListeningGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeningGame.swift; sourceTree = "<group>"; };
 		76B1C53D1CB709BE00299120 /* aen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = aen.wav; path = ../../../../../../Dropbox/sounds/aen.wav; sourceTree = "<group>"; };
 		76B1C53E1CB709BE00299120 /* anl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = anl.wav; path = ../../../../../../Dropbox/sounds/anl.wav; sourceTree = "<group>"; };
 		76B1C53F1CB709BE00299120 /* ben.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ben.wav; path = ../../../../../../Dropbox/sounds/ben.wav; sourceTree = "<group>"; };
@@ -243,7 +247,9 @@
 		763442391CB82E6B0038BFED /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				7634423E1CB95BF60038BFED /* ListeningViewController.swift */,
+				763442551CBAA1F70038BFED /* ListeningGame.swift */,
+				763442511CBA8D330038BFED /* ListeningViewController.swift */,
+				7634424F1CB9B5660038BFED /* ListeningTestStartViewController.swift */,
 				763442401CB95C440038BFED /* HighscoreViewController.swift */,
 				7634423C1CB9314B0038BFED /* InstrumentViewController.swift */,
 				7634423A1CB8457E0038BFED /* MainViewController.swift */,
@@ -631,10 +637,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7634423F1CB95BF60038BFED /* ListeningViewController.swift in Sources */,
 				7634423D1CB9314B0038BFED /* InstrumentViewController.swift in Sources */,
 				76BE6A9D1CB67CA300487A80 /* VIiegerAppiOS.xcdatamodeld in Sources */,
+				763442561CBAA1F70038BFED /* ListeningGame.swift in Sources */,
+				763442501CB9B5660038BFED /* ListeningTestStartViewController.swift in Sources */,
 				76B1C5D01CB70A7900299120 /* settings.swift in Sources */,
+				763442521CBA8D330038BFED /* ListeningViewController.swift in Sources */,
 				76BE6A951CB67CA200487A80 /* AppDelegate.swift in Sources */,
 				7634423B1CB8457E0038BFED /* MainViewController.swift in Sources */,
 				763442411CB95C440038BFED /* HighscoreViewController.swift in Sources */,
