@@ -9,17 +9,17 @@
 import UIKit
 
 class InstrumentViewController: UIViewController {
-
+    
+    let defaultSession = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
+    var dataTask: NSURLSessionDataTask?
+    var data = NSMutableData()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         getImages()
     }
 
-    let defaultSession = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
-    var dataTask: NSURLSessionDataTask?
-    var data = NSMutableData()
-    
     func getImages() {
         UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         let url =  NSURL(string: "http://imarks.org/api/question")
@@ -40,6 +40,10 @@ class InstrumentViewController: UIViewController {
                         
                         for object in jsonResult {
                              print(object)
+                            
+                            guard let 
+                            
+                            // still need to do stuff.
                         }
                     } catch {
                         print("Error in parsing JSON")
@@ -47,9 +51,7 @@ class InstrumentViewController: UIViewController {
                 }
             }
         }
-        
         dataTask?.resume()
-
     }
     
     
@@ -62,8 +64,8 @@ class InstrumentViewController: UIViewController {
     @IBOutlet weak var answerImageFour: UIImageView!
     
     @IBAction func AnswerButton(sender: UIButton) {
-        
     }
+
 //     Need to get images
     
     
