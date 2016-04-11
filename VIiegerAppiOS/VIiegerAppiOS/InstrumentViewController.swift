@@ -39,7 +39,27 @@ class InstrumentViewController: UIViewController {
                         let jsonResult = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as! NSArray
                         
                         for object in jsonResult {
-                             print(object)
+                            let id = object["id"] as? Int
+//                            print(id)
+//                            for altitude in object["altitude"] {
+                            let aId = object["altitude"]!!["id"] as? Int
+//                            print(aId)
+                            let apath = object["altitude"]!!["path"] as? String
+//                            print(apath)
+                            let cId = object["compass"]!!["id"] as? Int
+                            let cpath = object["compass"]!!["path"] as? String
+
+                            
+                            if let questions = object["images"] as? NSArray {
+                                for question in questions {
+                                    let iId = question["id"] as? Int
+                                    let iPath = question["path"] as? String
+                                    let iCorrect = question["correct"] as? Bool
+                                    print(iCorrect)
+                                }
+                            }
+                            
+//                            }
 //                            guard let
                             
                             // still need to do stuff.
