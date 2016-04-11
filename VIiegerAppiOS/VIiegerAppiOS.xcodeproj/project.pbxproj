@@ -93,6 +93,7 @@
 		76BE6AA21CB67CA300487A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BE6AA01CB67CA300487A80 /* LaunchScreen.storyboard */; };
 		76BE6AAD1CB67CA400487A80 /* VIiegerAppiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE6AAC1CB67CA400487A80 /* VIiegerAppiOSTests.swift */; };
 		76BE6AB81CB67CA500487A80 /* VIiegerAppiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE6AB71CB67CA500487A80 /* VIiegerAppiOSUITests.swift */; };
+		76FB84DB1CBBF822004E58FB /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FB84DA1CBBF822004E58FB /* SettingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +206,8 @@
 		76BE6AB31CB67CA400487A80 /* VIiegerAppiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIiegerAppiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BE6AB71CB67CA500487A80 /* VIiegerAppiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIiegerAppiOSUITests.swift; sourceTree = "<group>"; };
 		76BE6AB91CB67CA600487A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76FB84DA1CBBF822004E58FB /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		76FB84DD1CBBFC72004E58FB /* VliegerAppiOS-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VliegerAppiOS-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +244,7 @@
 				763442401CB95C440038BFED /* HighscoreViewController.swift */,
 				7634423C1CB9314B0038BFED /* InstrumentViewController.swift */,
 				7634423A1CB8457E0038BFED /* MainViewController.swift */,
+				76FB84DA1CBBF822004E58FB /* SettingController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -358,6 +362,7 @@
 		76BE6A881CB67CA100487A80 = {
 			isa = PBXGroup;
 			children = (
+				76FB84DD1CBBFC72004E58FB /* VliegerAppiOS-prefix.pch */,
 				76BE6A931CB67CA200487A80 /* VIiegerAppiOS */,
 				76BE6AAB1CB67CA400487A80 /* VIiegerAppiOSTests */,
 				76BE6AB61CB67CA500487A80 /* VIiegerAppiOSUITests */,
@@ -613,6 +618,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FB84DB1CBBF822004E58FB /* SettingController.swift in Sources */,
 				7634423D1CB9314B0038BFED /* InstrumentViewController.swift in Sources */,
 				76BE6A9D1CB67CA300487A80 /* VIiegerAppiOS.xcdatamodeld in Sources */,
 				763442561CBAA1F70038BFED /* ListeningGame.swift in Sources */,
@@ -763,6 +769,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIiegerAppiOS/VliegerAppiOS-prefix.pch";
 				INFOPLIST_FILE = VIiegerAppiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mvkms.VIiegerAppiOS;
@@ -774,6 +782,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIiegerAppiOS/VliegerAppiOS-prefix.pch";
 				INFOPLIST_FILE = VIiegerAppiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mvkms.VIiegerAppiOS;
