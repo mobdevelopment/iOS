@@ -431,10 +431,20 @@
                                 <rect key="frame" x="396" y="149" width="176" height="30"/>
                                 <state key="normal" title="9"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8b-q0-Unb">
+                                <rect key="frame" x="554" y="550" width="34" height="30"/>
+                                <state key="normal" title="Start"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Round:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFF-cN-5wS">
+                                <rect key="frame" x="20" y="44" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h8E-ia-Xwl">
                                 <rect key="frame" x="20" y="187" width="552" height="355"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Hoe werkt de selectieve luistertest?
+                                <string key="text">Hoe werkt de selectieve luistertest?
 
 De selectieve luistertest is bedoeld om te achterhalen de belangrijke details kan filteren.
 In tegenstelling tot school, moet je hier je info uit meerdere kanalen halen,
@@ -448,20 +458,10 @@ Hoe werkt de score?
 
 De test bestaat uit 24 setjes van 5 tot 8 cijfers die je moet filteren. Per set mag je ongelimiteerd fouten maken, alleen de eerste fout telt mee. In totaal mogen 6 setjes fout gaan.
 Heb je de test al eens gedaan?, in dat geval mag je er nog maar 2 fout doen.
-Dit is omdat er vanuit gegaan wordt dat in je de tussentijd beter bent geworden en omdat je al bekend ben geworden met de test.</mutableString>
+Dit is omdat er vanuit gegaan wordt dat in je de tussentijd beter bent geworden en omdat je al bekend ben geworden met de test.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="7"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8b-q0-Unb">
-                                <rect key="frame" x="554" y="550" width="34" height="30"/>
-                                <state key="normal" title="Start"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Round:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFF-cN-5wS">
-                                <rect key="frame" x="20" y="44" width="560" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
