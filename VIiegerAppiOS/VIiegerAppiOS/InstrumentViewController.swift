@@ -40,8 +40,7 @@ class InstrumentViewController: UIViewController {
                         
                         for object in jsonResult {
                              print(object)
-                            
-//                            guard let 
+//                            guard let
                             
                             // still need to do stuff.
                         }
