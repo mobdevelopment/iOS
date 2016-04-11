@@ -10,12 +10,6 @@
 		7634423B1CB8457E0038BFED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634423A1CB8457E0038BFED /* MainViewController.swift */; };
 		7634423D1CB9314B0038BFED /* InstrumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634423C1CB9314B0038BFED /* InstrumentViewController.swift */; };
 		763442411CB95C440038BFED /* HighscoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763442401CB95C440038BFED /* HighscoreViewController.swift */; };
-		763442491CB9AD710038BFED /* ic_launcher (ldpi).png in Resources */ = {isa = PBXBuildFile; fileRef = 763442431CB9AD710038BFED /* ic_launcher (ldpi).png */; };
-		7634424A1CB9AD710038BFED /* ic_launcher(hdpi).png in Resources */ = {isa = PBXBuildFile; fileRef = 763442441CB9AD710038BFED /* ic_launcher(hdpi).png */; };
-		7634424B1CB9AD710038BFED /* ic_launcher(mdpi).png in Resources */ = {isa = PBXBuildFile; fileRef = 763442451CB9AD710038BFED /* ic_launcher(mdpi).png */; };
-		7634424C1CB9AD710038BFED /* ic_launcher(xhdpi).png in Resources */ = {isa = PBXBuildFile; fileRef = 763442461CB9AD710038BFED /* ic_launcher(xhdpi).png */; };
-		7634424D1CB9AD710038BFED /* ic_launcher(xxhdpi).png in Resources */ = {isa = PBXBuildFile; fileRef = 763442471CB9AD710038BFED /* ic_launcher(xxhdpi).png */; };
-		7634424E1CB9AD710038BFED /* ic_launcher(xxxhdpi).png in Resources */ = {isa = PBXBuildFile; fileRef = 763442481CB9AD710038BFED /* ic_launcher(xxxhdpi).png */; };
 		763442501CB9B5660038BFED /* ListeningTestStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634424F1CB9B5660038BFED /* ListeningTestStartViewController.swift */; };
 		763442521CBA8D330038BFED /* ListeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763442511CBA8D330038BFED /* ListeningViewController.swift */; };
 		763442561CBAA1F70038BFED /* ListeningGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763442551CBAA1F70038BFED /* ListeningGame.swift */; };
@@ -122,12 +116,6 @@
 		7634423A1CB8457E0038BFED /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7634423C1CB9314B0038BFED /* InstrumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentViewController.swift; sourceTree = "<group>"; };
 		763442401CB95C440038BFED /* HighscoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoreViewController.swift; sourceTree = "<group>"; };
-		763442431CB9AD710038BFED /* ic_launcher (ldpi).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher (ldpi).png"; path = "../../../../../../Dropbox/images/ic_launcher (ldpi).png"; sourceTree = "<group>"; };
-		763442441CB9AD710038BFED /* ic_launcher(hdpi).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher(hdpi).png"; path = "../../../../../../Dropbox/images/ic_launcher(hdpi).png"; sourceTree = "<group>"; };
-		763442451CB9AD710038BFED /* ic_launcher(mdpi).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher(mdpi).png"; path = "../../../../../../Dropbox/images/ic_launcher(mdpi).png"; sourceTree = "<group>"; };
-		763442461CB9AD710038BFED /* ic_launcher(xhdpi).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher(xhdpi).png"; path = "../../../../../../Dropbox/images/ic_launcher(xhdpi).png"; sourceTree = "<group>"; };
-		763442471CB9AD710038BFED /* ic_launcher(xxhdpi).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher(xxhdpi).png"; path = "../../../../../../Dropbox/images/ic_launcher(xxhdpi).png"; sourceTree = "<group>"; };
-		763442481CB9AD710038BFED /* ic_launcher(xxxhdpi).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher(xxxhdpi).png"; path = "../../../../../../Dropbox/images/ic_launcher(xxxhdpi).png"; sourceTree = "<group>"; };
 		7634424F1CB9B5660038BFED /* ListeningTestStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeningTestStartViewController.swift; sourceTree = "<group>"; };
 		763442511CBA8D330038BFED /* ListeningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeningViewController.swift; sourceTree = "<group>"; };
 		763442551CBAA1F70038BFED /* ListeningGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeningGame.swift; sourceTree = "<group>"; };
@@ -260,12 +248,6 @@
 		763442421CB9AD570038BFED /* images */ = {
 			isa = PBXGroup;
 			children = (
-				763442431CB9AD710038BFED /* ic_launcher (ldpi).png */,
-				763442441CB9AD710038BFED /* ic_launcher(hdpi).png */,
-				763442451CB9AD710038BFED /* ic_launcher(mdpi).png */,
-				763442461CB9AD710038BFED /* ic_launcher(xhdpi).png */,
-				763442471CB9AD710038BFED /* ic_launcher(xxhdpi).png */,
-				763442481CB9AD710038BFED /* ic_launcher(xxxhdpi).png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -551,15 +533,11 @@
 				7660F1AE1CBB868A00038EDD /* enl.wav in Resources */,
 				7660F1B91CBB868A00038EDD /* ken.wav in Resources */,
 				7660F1CC1CBB868A00038EDD /* onl.wav in Resources */,
-				7634424C1CB9AD710038BFED /* ic_launcher(xhdpi).png in Resources */,
-				7634424D1CB9AD710038BFED /* ic_launcher(xxhdpi).png in Resources */,
 				7660F1CE1CBB868A00038EDD /* pnl.wav in Resources */,
 				7660F1C61CBB868A00038EDD /* nl6.wav in Resources */,
 				76BE6AA21CB67CA300487A80 /* LaunchScreen.storyboard in Resources */,
 				76BE6A9F1CB67CA300487A80 /* Assets.xcassets in Resources */,
-				7634424A1CB9AD710038BFED /* ic_launcher(hdpi).png in Resources */,
 				7660F1E01CBB868A00038EDD /* ynl.wav in Resources */,
-				7634424B1CB9AD710038BFED /* ic_launcher(mdpi).png in Resources */,
 				7660F1C21CBB868A00038EDD /* nl2.wav in Resources */,
 				7660F1AA1CBB868A00038EDD /* en6.wav in Resources */,
 				7660F1E21CBB868A00038EDD /* znl.wav in Resources */,
@@ -571,7 +549,6 @@
 				7660F1A31CBB868A00038EDD /* een.wav in Resources */,
 				7660F1A51CBB868A00038EDD /* en1.wav in Resources */,
 				7660F1C01CBB868A00038EDD /* nl0.wav in Resources */,
-				763442491CB9AD710038BFED /* ic_launcher (ldpi).png in Resources */,
 				7660F1D31CBB868A00038EDD /* sen.wav in Resources */,
 				7660F1A11CBB868A00038EDD /* den.wav in Resources */,
 				7660F19F1CBB868A00038EDD /* cen.wav in Resources */,
@@ -582,7 +559,6 @@
 				7660F1DF1CBB868A00038EDD /* yen.wav in Resources */,
 				7660F1C31CBB868A00038EDD /* nl3.wav in Resources */,
 				7660F1B71CBB868A00038EDD /* jen.wav in Resources */,
-				7634424E1CB9AD710038BFED /* ic_launcher(xxxhdpi).png in Resources */,
 				7660F19C1CBB868A00038EDD /* anl.wav in Resources */,
 				7660F1AF1CBB868A00038EDD /* fen.wav in Resources */,
 				7660F1B01CBB868A00038EDD /* fnl.wav in Resources */,
