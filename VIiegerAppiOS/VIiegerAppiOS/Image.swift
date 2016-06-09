@@ -8,10 +8,16 @@
 
 import Foundation
 
-class Image: NSObject {
+class Image {
     
-    var _id: Int?
-    var path: String?
-    var correct: Bool?
+    var id: Int
+    var path: String
+    var correct: Bool
+    
+    init(_id: Int, _path: String, _correct: Bool){
+        id = _id
+        path = _path
+        correct = _correct
+    }
     
 }

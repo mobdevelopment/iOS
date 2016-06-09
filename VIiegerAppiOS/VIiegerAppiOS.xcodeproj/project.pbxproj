@@ -93,7 +93,11 @@
 		76BE6AA21CB67CA300487A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BE6AA01CB67CA300487A80 /* LaunchScreen.storyboard */; };
 		76BE6AAD1CB67CA400487A80 /* VIiegerAppiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE6AAC1CB67CA400487A80 /* VIiegerAppiOSTests.swift */; };
 		76BE6AB81CB67CA500487A80 /* VIiegerAppiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE6AB71CB67CA500487A80 /* VIiegerAppiOSUITests.swift */; };
-		76FB84DB1CBBF822004E58FB /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FB84DA1CBBF822004E58FB /* SettingController.swift */; };
+		76D242F91D09ADA600600434 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D242F81D09ADA600600434 /* Question.swift */; };
+		76D242FB1D09ADB200600434 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D242FA1D09ADB200600434 /* Image.swift */; };
+		76D242FE1D09B1E400600434 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D242FC1D09B1E400600434 /* MasterViewController.swift */; };
+		76D242FF1D09B1E400600434 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D242FD1D09B1E400600434 /* DetailViewController.swift */; };
+		76D243011D09B1EB00600434 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D243001D09B1EB00600434 /* Venue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,7 +210,11 @@
 		76BE6AB31CB67CA400487A80 /* VIiegerAppiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIiegerAppiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BE6AB71CB67CA500487A80 /* VIiegerAppiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIiegerAppiOSUITests.swift; sourceTree = "<group>"; };
 		76BE6AB91CB67CA600487A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76FB84DA1CBBF822004E58FB /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		76D242F81D09ADA600600434 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		76D242FA1D09ADB200600434 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		76D242FC1D09B1E400600434 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		76D242FD1D09B1E400600434 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		76D243001D09B1EB00600434 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		76FB84DD1CBBFC72004E58FB /* VliegerAppiOS-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VliegerAppiOS-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -244,7 +252,8 @@
 				763442401CB95C440038BFED /* HighscoreViewController.swift */,
 				7634423C1CB9314B0038BFED /* InstrumentViewController.swift */,
 				7634423A1CB8457E0038BFED /* MainViewController.swift */,
-				76FB84DA1CBBF822004E58FB /* SettingController.swift */,
+				76D242FC1D09B1E400600434 /* MasterViewController.swift */,
+				76D242FD1D09B1E400600434 /* DetailViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -355,6 +364,9 @@
 		76B1C5CE1CB70A0A00299120 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				76D243001D09B1EB00600434 /* Venue.swift */,
+				76D242F81D09ADA600600434 /* Question.swift */,
+				76D242FA1D09ADB200600434 /* Image.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -618,14 +630,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76FB84DB1CBBF822004E58FB /* SettingController.swift in Sources */,
+				76D242FF1D09B1E400600434 /* DetailViewController.swift in Sources */,
 				7634423D1CB9314B0038BFED /* InstrumentViewController.swift in Sources */,
 				76BE6A9D1CB67CA300487A80 /* VIiegerAppiOS.xcdatamodeld in Sources */,
+				76D243011D09B1EB00600434 /* Venue.swift in Sources */,
 				763442561CBAA1F70038BFED /* ListeningGame.swift in Sources */,
 				763442501CB9B5660038BFED /* ListeningTestStartViewController.swift in Sources */,
+				76D242FB1D09ADB200600434 /* Image.swift in Sources */,
 				76B1C5D01CB70A7900299120 /* settings.swift in Sources */,
 				763442521CBA8D330038BFED /* ListeningViewController.swift in Sources */,
 				76BE6A951CB67CA200487A80 /* AppDelegate.swift in Sources */,
+				76D242FE1D09B1E400600434 /* MasterViewController.swift in Sources */,
+				76D242F91D09ADA600600434 /* Question.swift in Sources */,
 				7634423B1CB8457E0038BFED /* MainViewController.swift in Sources */,
 				763442411CB95C440038BFED /* HighscoreViewController.swift in Sources */,
 			);
