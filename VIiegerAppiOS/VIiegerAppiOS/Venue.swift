@@ -1,10 +1,3 @@
-//
-//  Venue.swift
-//  NativPokemon_gw
-//
-//  Created by Wouter van Geel on 09/04/16.
-//  Copyright © 2016 gijsbertvancorstanje_woutervangeel. All rights reserved.
-//
 
 import Foundation
 
